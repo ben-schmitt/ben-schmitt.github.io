@@ -49,6 +49,9 @@ section h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
     
 }
 
@@ -63,13 +66,14 @@ section h2 {
 }
 
 .project img {
-  width: 30vw;
+  width: 27vw;
   height: auto;
 }
 
 .project-info {
   margin-top: 0;
 }
+
   
 footer {
   background-color: #333;
