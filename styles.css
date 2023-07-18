@@ -15,9 +15,17 @@ body {
 }
 
 header {
+  position: relative;
   background-color: #333;
   color: #fff;
   padding: 20px;
+}
+
+header.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 header h1 {
@@ -54,7 +62,6 @@ section h2 {
   padding-bottom: 5px;
     
 }
-
 
 .project {
   display: grid;
